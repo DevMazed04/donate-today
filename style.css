@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+}
+
+/* --------------------------------------------------------- */
+
+.lets-help-img {
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    height: 680px;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 150px;
+}
+
+.lets-help-text {
+    position: absolute;
+    top: 20%;
+    left: 21%;
+}
+
+.lets-help-text h1 {
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    margin-bottom: 22px;
+}
+
+.lets-help-text p {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(27, 26, 26);
+    margin-bottom: 48px;
+}
+
+.lets-help-donate-button {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fa4848;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 100px 39%;
+}
+
+.lets-help-donate-button:hover {
+    color: blue;
+    background-color: rgba(89, 255, 47, 0.87);
+    text-shadow: 1px 1px rgb(27, 26, 26);
+}
+
+/* --------------------------------------------------------- */
+
+.donate-today h1 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donate-today p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.donate-today a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.amount {
+    margin: auto 320px;
+}
+
+.amount h1 {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 40px 15px;
+    margin: 8px;
+}
+
+.amount a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.amount h1:hover {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+
+#other-amount {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #B3B3B3;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 200px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+input[type="text"]::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+    text-align: center;
+}
+
+
+hr {
+    border: 1px solid #DADADA;
+    margin-bottom: 50px;
+}
+
+.amount-donate-button {
+    text-decoration: none;
+    background-color: #fa4848;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 100px 38%;
+}
+
+.amount-donate-button:hover {
+    color: whitesmoke;
+    background-color: blueviolet;
+    text-shadow: 1px 1px rgb(27, 26, 26);
+}
+
+/* --------------------------------------------------------- */
+
+.donate-plan {
+    margin-top: 150px;
+}
+
+.donate-plan p {
+    margin-bottom: 50px;
+}
+
+.section-middle-one {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 7%;
+    margin-left: 9.5%;
+}
+
+.section-middle-one h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.section-middle-one p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+
+.left {
+    width: 300px;
+    height: 230px;
+    padding: 35px 15px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.left:hover {
+    margin-top: -10px;
+    transition: 0.5ms;
+    box-shadow: 5px 5px 15px gray;
+}
+
+
+.middle {
+    width: 300px;
+    height: 230px;
+    padding: 35px 15px;
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.middle:hover {
+    margin-top: -10px;
+    transition: 0.5ms;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.right {
+    width: 300px;
+    height: 230px;
+    padding: 35px 20px;
+    background-color: rgba(255, 244, 214, 0.719);
+    border-radius: 5px;
+}
+
+.right:hover {
+    margin-top: -10px;
+    transition: 0.5ms;
+    box-shadow: 5px 5px 15px gray;
+}
+
+/* --------------------------------------------------------- */
+
+.section-middle-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* --------------------------------------------------------- */
+
+.bottom-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    border-radius: 10px;
+    margin-left: 284px;
+    margin-bottom: 140px;
+}
+
+#mail {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D9D9D9;
+    padding: 13px 60px;
+    margin-top: 9px;
+    margin-left: 0px;
+    border-radius: 8px 0 0 8px;
+}
+
+input[type="email"]::placeholder {
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 80%;
+    text-align: left;
+}
+
+.subscribe-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 0 8px 8px 0;
+    padding: 13px 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+/* --------------------------------------------------------- */
+
+.footer-part {
+    background-color: #0B0D17;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.footer-part h2 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 15px;
+}
+
+.footer-part p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.copyright:hover {
+    color: blueviolet;
+}
+
+/* --------------------------------------------------------- */
